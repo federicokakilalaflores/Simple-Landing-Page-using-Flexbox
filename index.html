@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Federico Flores">
+    <meta name="keywords" content="landing page, flexbox">
+    <meta name="theme-color" content="#222222">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#222222">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+    <title>Landing Page Flexbox</title>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <div class="fluid-wrapper">
+                    <div class="btn-icon" id="navBtn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                    </div>
+                    <div class="logo-box">
+                        <h1>&lt;LO<span class="text-highlighter">GO</span>/&gt;</h1>
+                    </div>
+                    
+                <div class="menuItems">    
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="index.html"><i class="fa fa-home icon-margin"></i>home</a></li>
+                            <li><a href="#about"><i class="fa fa-info icon-margin"></i>about</a></li>
+                            <li><a href="#offer"><i class="fa fa-folder-open icon-margin"></i>services</a></li>
+                            <li><a href="#contact"><i class="fa fa-phone icon-margin"></i>contact</a></li>
+                            <li><a href="#"><i class="fa fa-list icon-margin"></i>more</a></li>
+                        </ul>
+                    </nav>
+                    <div class="nav-right">
+                        <a href="#" class="right-item">CLIENTS</a> 
+                    </div>
+                </div>     
+            </div>    
+        </header>
+
+        <div class="showcase">
+            <div class="overlay"></div>
+             <div class="wrapper">
+                <h2>we can <span class="text-highlighter">make</span> <br> something <span class="text-highlighter">great!</span></h2>
+                <p>
+                I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <a href="#"><button class="btn-brand"><b>Learn more</b></button></a>
+             </div>
+        </div>
+    </main>    
+
+    <section class="section" id="about">
+        <div class="fluid-wrapper">
+            <h1 class="heading">about the company</h1>
+            <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodtempor incididunt ut labore et dolore. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodtempor incididunt ut labore et dolore. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+            incididunt ut labore et dolore.</p>
+            <div class="muted-text">Key Features</div>
+            <div class="flex-container">
+                <div class="features">
+                    <i class="fa fa-laptop fa-4x" style="color: #0099ff"></i>  
+                    <div>Responsive</div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, asperiores.</p> 
+                </div>
+                <div class="features">
+                    <i class="fa fa-heart fa-4x" style="color: #ff0000"></i>  
+                    <div>Passion</div> 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, asperiores.</p> 
+                </div>
+                <div class="features">
+                    <i class="fa fa-code fa-4x" style="color: #666666"></i>  
+                    <div>Talents</div> 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, asperiores.</p> 
+                </div>
+                <div class="features">
+                    <i class="fa fa-cog fa-4x" style="color: darkorange"></i>  
+                    <div>Support</div> 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, asperiores.</p> 
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section id="offer">
+        <div class="bg-wrapper">
+                <div class="fluid-wrapper">
+                <h1 class="heading">what we offer?</h1>
+                <div class="flex-container">
+                    <div class="offer">
+                        <h3>web design</h3>
+                        <p>Lorem ipsum dolor, consecutor
+                        adipscing elit, sed do edifeea as
+                        ipsom lorem</p>
+                    </div>
+                    <div class="offer">
+                            <h3>photography</h3>
+                            <p>Lorem ipsum dolor, consecutor
+                            adipscing elit, sed do edifeea as
+                            ipsom lorem</p>
+                    </div>
+                    <div class="offer">
+                            <h3>web programming</h3>
+                            <p>Lorem ipsum dolor, consecutor
+                            adipscing elit, sed do edifeea as
+                            ipsom lorem</p>
+                    </div>
+                    <div class="offer">
+                            <h3>fullstack</h3>
+                            <p>Lorem ipsum dolor, consecutor
+                            adipscing elit, sed do edifeea as
+                            ipsom lorem</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <section id="contact">
+        <div class="fluid-wrapper">
+            <div class="flex-container">
+                <div class="flex-col1">
+                    <h1 class="heading">contact us</h1>
+                    <div class="muted-text override-muted-padding">Get in touch with us. Send us message:</div>
+                    <ul class="horizontal-list">
+                        <li><i class="fa fa-map-marker icon-margin"></i>Address City, Provice Country</li>
+                        <li><i class="fa fa-phone icon-margin"></i>Phone: +00 122042</li>
+                        <li><i class="fa fa-envelope icon-margin"></i>Email: support@example.com</li>
+                    </ul>
+                </div>
+
+                <div class="flex-col2">
+                    <form action="#">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Subject">
+                        <input type="text" placeholder="Message">
+                        <button type="submit" class="btn-primary"><i class="fa fa-paper-plane icon-margin"></i>Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="fluid-wrapper">
+             <div class="flex-container">
+                <div class="flex-col1">
+                    <h2>OUR <span class="text-highlighter">SITE</span></h2>
+                    <ul class="horizontal-list">
+                            <li><a href="#"><i class="fa fa-home icon-margin"></i>Home</a></li>
+                            <li><a href="#"><i class="fa fa-info-circle icon-margin"></i>About</a></li>
+                            <li><a href="#"><i class="fa fa-laptop icon-margin"></i>Services</a></li>
+                            <li><a href="#"><i class="fa fa-phone icon-margin"></i>Contact</a></li>
+                            <li><a href="#"><i class="fa fa-envelope icon-margin"></i>Pricing</a></li>
+                            <li><a href="#"><i class="fa fa-folder-open icon-margin"></i>Works</a></li>
+                    </ul>
+                </div>
+                <div class="flex-col1">
+                    <h2>FOLLOW <span class="text-highlighter">US</span></h2>
+                    <ul class="horizontal-list">
+                            <li><a href="#"><i class="fab fa-facebook icon-margin"></i>Facebook</a></li>
+                            <li><a href="#"><i class="fab fa-twitter icon-margin"></i>Twitter</a></li>
+                            <li><a href="#"><i class="fab fa-instagram icon-margin"></i>Instagram</a></li>
+                            <li><a href="#"><i class="fab fa-pinterest icon-margin"></i>Pinterest</a></li>
+                    </ul>
+                </div>
+                <div class="flex-col1">
+                        <h2>TERMS AND <span class="text-highlighter">CONDITIONS</span></h2>
+                        <a href="#" style="color: royalblue;text-decoration: underline">Terms and Conditions</a>
+                        <p>&copy; Copyright example.com design 2018 | <span class="text-lightblue">Powered by Photoshop</span></p>
+                </div>
+             </div>
+        </div>
+    </footer>
+
+
+<script src="main.js"></script>
+</body>
+</html>
