@@ -1,3 +1,3 @@
- #Simple Landing Page using Flexbox
+ #SimpleLandingPageusingFlexbox
  This is my personal project, feel free to copy and it is
  reponsive to mobile device. 
